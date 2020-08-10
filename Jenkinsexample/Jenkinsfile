@@ -1,4 +1,4 @@
-Pipeline
+pipeline
 {
 
 agent any
@@ -12,7 +12,7 @@ echo "Building the application..............."
 
 }
 
-stage1("Test") {
+stage2("Test") {
 steps {
 echo "Testing the application............."
 
@@ -22,7 +22,7 @@ echo "Testing the application............."
 
 
 
-stage1("Deploy") {
+stage3("Deploy") {
 steps {
 echo "Deploying the application............"
 
